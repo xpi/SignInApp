@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="logout_btn">注销</string>
+
+    <string name="app_name">翰智软件</string>
+    <string name="signinstaff">员工签到</string>
+    <string name="signin">确认签到</string>
+    <string name="sign_success">签到成功</string>
+    <string name="userName">用户名:</string>
+    <string name="userPwd">密码:</string>
+    <string name="chengePwd">修改密码</string>
+    <string name="login">登录</string>
+    <string name="cancel">取消</string>
+    <string name="originalEdit">请输入原始密码</string>
+    <string name="newEdit">请输入新的密码</string>
+    <string name="identifyEdit">请输入确认密码</string>
+    <string name="chengePwdBtn">修改密码</string>
+    <string name="reSign">重新签到</string>
+    <string name="noteInputPwd">请输入密码</string>
+    <string name="noteInputUser">请输入用户名</string>
+    <string name="findPwd">找回密码</string>
+    <string name="reset">X</string>
+    <string name="exist">退出</string>
+    <string name="back">返回</string>
+    <string name="logout">注销</string>
+    <string name="currentLocation">当前位置</string>
+    <string name="locationmsg">当前位置(若不准确请重新定位)</string>
+    <string name="locating">正在定位…</string>
+    <string name="location">定位</string>
+    <string name="sign_history">签到历史</string>
+    <string name="settings">设置</string>
+    <string name="note_icon">工作笔记</string>
+    
+    
+
+</resources>

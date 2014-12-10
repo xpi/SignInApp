@@ -1,0 +1,1 @@
+<resources>    <color name="color_preloader_start">#FFFFFFFF</color>    <color name="color_preloader_center">#FFFFFFFF</color>    <color name="color_preloader_end">#FFde0000</color>        <color name="note_edit_color">#F0E37F</color>    <color name="note_list_color">#F0E37F</color></resources>

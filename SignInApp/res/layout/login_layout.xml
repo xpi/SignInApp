@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:paddingBottom="0dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context="com.example.singnup.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/userText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logoo" />
+
+    <Button
+        android:id="@+id/findPwdBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/loginBtn"
+        android:background="@android:color/transparent"
+        android:text="@string/findPwd"
+        android:textColor="#034888" />
+
+    <Button
+        android:id="@+id/chengePwdBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginBtn"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:text="@string/chengePwdBtn"
+        android:textColor="#034888" />
+
+    <EditText
+        android:id="@+id/userText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageLogo"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/noteInputUser"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:theme="@style/loginEditStyle" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/pwdText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userText"
+        android:layout_below="@+id/userText"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/noteInputPwd"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:theme="@style/loginEditStyle" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pwdText"
+        android:layout_below="@+id/pwdText"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/btn_selector"
+        android:padding="0dp"
+        android:text="@string/login"
+        android:textColor="@drawable/btn_text_color"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/resetUser"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageLogo"
+        android:layout_below="@+id/imageLogo"
+        android:background="@android:color/transparent"
+        android:text="@string/reset"
+        android:textColor="@drawable/gray_btn_color"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/resetPwd"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginBtn"
+        android:layout_alignRight="@+id/pwdText"
+        android:background="@android:color/transparent"
+        android:text="@string/reset"
+        android:textColor="@drawable/gray_btn_color"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
