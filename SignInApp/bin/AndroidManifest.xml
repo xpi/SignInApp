@@ -64,11 +64,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.hanzhisoft.signinapp.SignInActivity"
+            android:name="com.hanzhisoft.signinapp.signin.SignInActivity"
             android:label="@string/back" >
         </activity>
             <activity
-            android:name="com.hanzhisoft.signinapp.SignInListActivity"
+            android:name="com.hanzhisoft.signinapp.signin.SignInListActivity"
             android:label="@string/back" >
         </activity>
         <activity
@@ -84,7 +84,7 @@
             android:label="@string/back" >
         </activity>
         <activity
-               android:name="com.hanzhisoft.signinapp.SettingActivity"
+               android:name="com.hanzhisoft.signinapp.settings.SettingActivity"
                android:label="@string/back" >
 
         </activity>

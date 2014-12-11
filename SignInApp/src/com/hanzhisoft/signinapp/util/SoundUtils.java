@@ -1,1 +1,1 @@
-package com.hanzhisoft.signinapp.util;import android.media.SoundPool;public class SoundUtils {	public static void play(SoundPool soundPool, int soundId, boolean isReady) {		if (isReady) {			if (isReady) {				soundPool.play(soundId, 1f, 1f, 0, 0, 1f);			}		}	}}
+package com.hanzhisoft.signinapp.util;import android.media.SoundPool;public class SoundUtils {	public static void play(SoundPool soundPool, int soundId, boolean isReady) {		if (isReady) {			if (isReady) {				soundPool.play(soundId, 1f, 1f, 0, 0, 1f);			}		}	}}

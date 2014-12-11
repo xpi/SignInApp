@@ -31,6 +31,8 @@
     <string name="sign_history">签到历史</string>
     <string name="settings">设置</string>
     <string name="note_icon">工作笔记</string>
+    <string name="pulltorefresh">刷新1</string>
+    <string name="lastupdate">刷新2</string>
     
     
 
